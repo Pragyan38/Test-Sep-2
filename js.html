@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <style>
+        /* body {
+            padding: 0 15px;
+        } */
+
+        img {
+            width: 60%;
+            height: 400px;
+            object-fit: cover;
+            margin-top: 50px;
+        }
+
+        button {
+            color: #fff;
+            background-color: cornflowerblue;
+            border: none;
+            padding: 15px 30px;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: cornsilk;
+            height: 65px;
+        }
+
+        .wrapper-card {
+            flex: 1 1 auto;
+            padding: 0 50px;
+            position: relative;
+        }
+
+        .wrapper-card .titled {
+            background-color: darkkhaki;
+            color: #111;
+            text-align: center;
+            padding: 15px 0;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        .wrapper-card ul {
+            list-style: none;
+            padding: 0;
+            /* margin: 0; */
+            background-color: darkgrey;
+            display: none;
+        }
+
+        .wrapper-card ul li {
+            text-align: center;
+            color: #fff;
+            padding: 10px 0;
+            border-bottom: 1px solid #f1f1f1;
+        }
+
+        .input-section {
+            display: flex;
+            justify-content: center;
+            padding: 50px 0;
+            background-color: burlywood;
+        }
+
+        .input-section input[type="text"] {
+            display: inline-block;
+            height: 45px;
+            width: 400px;
+            border-radius: 2px;
+            border: 1px solid #f1f1f1;
+            margin-right: 10px;
+            text-indent: 15px;
+        }
+
+        .input-section input[type="submit"] {
+            display: inline-block;
+            padding: 15px 30px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1 class="my-title">My Heading One</h1>
+    <h1 class="my-title">My Heading Two</h1>
+    <h1 id="three" class="my-title">My Heading Three</h1> -->
+    <!-- <h1 class="my-title">My Heading Four</h1>
+
+    <button>Change the heading</button>
+
+    <br>
+    <img src="./img/IT1.jpg" alt=""> -->
+
+    <div class="wrapper">
+        <div class="wrapper-card">
+            <div class="titled">Mobiles</div>
+            <ul>
+                <li>Iphone</li>
+                <li>Samsung</li>
+                <li>Mi</li>
+                <li>Nokia</li>
+                <li>One plus</li>
+            </ul>
+        </div>
+        <div class="wrapper-card">
+            <div class="titled">Computers</div>
+            <ul>
+                <li>Apple</li>
+                <li>Acer</li>
+                <li>Samsung</li>
+                <li>Dell</li>
+                <li>Mi</li>
+            </ul>
+        </div>
+        <div class="wrapper-card">
+            <div class="titled">Speakers</div>
+            <ul>
+                <li>JBL</li>
+                <li>Beats</li>
+                <li>Sony</li>
+                <li>Lg</li>
+                <li>Remax</li>
+            </ul>
+        </div>
+        <div class="wrapper-card">
+            <div class="titled">Watch</div>
+            <ul>
+                <li>Rolex</li>
+                <li>Casio</li>
+                <li>Taitan</li>
+                <li>Patek Philippe</li>
+                <li>Omega</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="input-section">
+        <form action="">
+            <input class="input-here" type="text" placeholder="Search an option">
+            <input class="btn-one" type="submit">
+            <p class="your-words"></p>
+        </form>
+    </div>
+
+    <script src="./js/js.js"></script>
+</body>
+
+</html>
